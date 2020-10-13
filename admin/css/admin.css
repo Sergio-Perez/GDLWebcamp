@@ -1,0 +1,49 @@
+.admin p {
+    font-weight: 700;
+}
+
+.nav-inicio {
+    position: relative;
+    left: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.nombre {
+    font-size: 1.5em;
+}
+
+.col-sm-6 h1 span {
+    font-size: 0.5em;
+    display: block;
+    font-weight: 200;
+}
+
+footer.main-footer {
+    display: none;
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+.color-rojo {
+    color: red;
+}
+
+.color-verde {
+    color: green;
+}
+
+.p-colocar {
+    color: white;
+}
+
+.p-colocar i {
+    padding: 5px;
+}
+
+.icono-grande {
+    font-size: 3rem;
+    color: rgb(78, 78, 199);
+}

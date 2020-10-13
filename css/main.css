@@ -950,7 +950,7 @@ div.galeria {
 form.registro h3 {
     text-align: center;
     text-transform: uppercase;
-    margin: 20px 0 0 0;
+    margin: 19px 0 0 0;
 }
 
 form.registro label {
@@ -974,13 +974,13 @@ div.caja {
 }
 
 div.campo {
-    padding: 10px;
+    padding: 5px;
 }
 
 @media only screen and (min-width:768px) {
     div.campo {
         float: left;
-        width: 33.3%;
+        width: 33%;
     }
 }
 
@@ -1142,6 +1142,25 @@ div.dia i {
 
 div.cboxElement {
     text-align: center;
+}
+
+
+/* Pagar */
+
+.resultado {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.correcto {
+    background-color: rgb(2, 173, 1);
+}
+
+.error {
+    background-color: red;
 }
 
 
@@ -1334,7 +1353,4 @@ h3 {
 h2,
 h3 {
     page-break-after: avoid;
-}
-
-
 }
