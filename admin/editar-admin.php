@@ -4,10 +4,10 @@ include_once "funciones/sesiones.php";
 include_once "funciones/funciones.php";
 $id = $_GET["id"];
 
-if(!filter_var($id, FILTER_VALIDATE_INT)){
-    header("Location: error404.php");
-    die();
-}
+ if(!filter_var($id, FILTER_VALIDATE_INT)){
+     header("location:../404.html");
+     exit();
+ }
 include_once "templates/header.php";
 include_once "templates/barraSuperior.php";
 include_once "templates/navegacion.php";

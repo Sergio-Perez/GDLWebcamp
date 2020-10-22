@@ -7,7 +7,7 @@ $biografia = $_POST["biografia_invitado"];
 
 $id_registro = $_POST["id_registro"];
  
-// Registrar Evento nuevo
+// Registrar Invitado nuevo
 if($_POST["registro"] == "nuevo"){   
     /*  Comprobar lod datos 
     $respuesta= array(
@@ -75,7 +75,7 @@ if($_POST["registro"] == "nuevo"){
     
 }
 
-// Actualizar admin
+// Actualizar 
 if($_POST["registro"] == "actualizar"){
 
     $directorio = "../img/invitados/";
@@ -145,7 +145,7 @@ if($_POST["registro"] == "actualizar"){
 
 }
 
-// Eliminar admin
+// Eliminar 
 if($_POST["registro"] == "eliminar"){
 
   $id_borrar = $_POST["id"];

@@ -10651,7 +10651,7 @@ body,
 }
 
 .wrapper {
-    position: relative;
+    position: unset;
 }
 
 .wrapper .content-wrapper {

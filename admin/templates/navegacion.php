@@ -34,21 +34,14 @@
 
           <li class="nav-item has-treeview">
 
-            <a href="#" class="nav-link">
+            <a href="dashboard.php" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
-                <i class="right fas fa-angle-left"></i>
+                
               </p>
             </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="../../index.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard</p>
-                </a>
-              </li>
-            </ul>
+           
           </li>
         
           <li class="nav-item has-treeview">
@@ -127,13 +120,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="lista-registro.php" class="nav-link">
                   <i class="fas fa-list-ul nav-icon"></i>
                   <p> Ver Todos</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="crear-registro.php" class="nav-link">
                   <i class="fas fa-plus-circle nav-icon"></i>
                   <p> Agregar </p>
                 </a>

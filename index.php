@@ -78,28 +78,28 @@
 
                     <?php do {
                         $resultado = $conn->store_result();
-                        $row = $resultado->fetch_all(MYSQLI_ASSOC); ?>
+                        $row = $resultado->fetch_all(MYSQLI_ASSOC); ?>                       
 
                         <?php $i = 0; ?>
                         <?php foreach($row as $evento): ?>
-                            <?php if($i % 2 == 0) { ?>
-                                <div id="<?php echo strtolower($evento['cat_evento']) ?>" class="info-curso ocultar clearfix">
-                            <?php } ?>
-                                    <div class="detalle-evento">
-                                        <h3><?php echo utf8_decode(utf8_encode($evento['nombre_evento'])) ?></h3>
-                                        <p><i class="fa fa-clock" aria-hidden="true"></i> <?php echo $evento['hora_evento']; ?></p>
-                                        <p><i class="fa fa-calendar" aria-hidden="true"></i>1<?php echo $evento['fecha_evento']; ?></p>
-                                        <p><i class="fa fa-users" aria-hidden="true"></i><?php echo $evento['nombre_invitado']. " ". $evento['apellido_invitado'] ;  ?></p>
-                                    </div>
-                                    
-                                    
-                            <?php if($i % 2 == 1):?>
-                                <a href="calendario.php" class="button float-right">
-                                        Ver Todos
-                                    </a>
-                                </div>
-                            <?php endif; ?> 
-                                <?php $i++; ?>
+                            <div id="<?php echo strtolower($evento['cat_evento']) ?>" class="info-curso ocultar clearfix">
+                                <?php if($i % 2 == 0) { ?>
+                                        <div class="detalle-evento">        
+                                            <h3><?php echo utf8_decode(utf8_encode($evento['nombre_evento'])) ?></h3>
+                                            <p><i class="fa fa-clock" aria-hidden="true"></i> <?php echo $evento['hora_evento']; ?></p>
+                                            <p><i class="fa fa-calendar" aria-hidden="true"></i><?php echo $evento['fecha_evento']; ?></p>
+                                            <p><i class="fa fa-users" aria-hidden="true"></i><?php echo $evento['nombre_invitado']. " ". $evento['apellido_invitado'] ;  ?></p>                                    
+                                        </div>
+                                        <?php } ?>
+                                        <?php $i++; ?>
+
+                                <?php if($i % 2 == 1):?>                                 
+                            
+                                    <a href="calendario.php" class="button float-right">Ver Todos</a>
+                                <?php endif; ?> 
+                            </div>
+
+                                
                         <?php endforeach; ?>
                         <?php $resultado->free(); ?>
                     <?php  } while($conn->more_results() && $conn->next_result() ); ?>
@@ -225,7 +225,7 @@
         <div class="contenido contenedor">
             <p>Registrate a newsletter</p>
             <h3>gdlwebcamp</h3>
-            <a href="#" class="button transparente">Registro</a>
+            <a href="#mc_embed_signup" class="boton_newsletter button transparente">Registro</a>
         </div>
         <!--contenido-->
     </div>

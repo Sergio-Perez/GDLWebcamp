@@ -8,8 +8,7 @@
 
   
  <!-- jQuery -->
-<script src="js/jquery.min.js" type="text/javascript"></script>
-
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 <!--SweetAlert2-->
 <!--<script src="js/sweetalert2.all.min.js"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
@@ -34,7 +33,6 @@
 <script src="js/adminlte.min.js"></script>
 
 <!-- AdminLTE for demo purposes -->
-<script src="js/demo.js"></script>
 
 
 <!--Select-->
@@ -51,9 +49,14 @@
 <!-- Tempusdaminus Boostrap 4 -->
 
 <script src="js/tempusdominus-bootstrap-4.min.js" type="text/javascript"></script>
-
-
+<script src="js/Chart.min.js"></script>
 <script src="js/app.js" type="text/javascript"></script>
+
+<script src="../js/cotizador.js"></script>
+<script src="js/demo.js"></script>
+
+
+
 
 
 

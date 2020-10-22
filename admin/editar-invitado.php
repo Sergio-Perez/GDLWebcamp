@@ -1,8 +1,8 @@
 <?php 
-    $id= $_GET["id"];
+    $id = $_GET["id"];
 
     if(!filter_var($id, FILTER_VALIDATE_INT)){
-        header("location:error.php");
+        header("location:../404.html");
         exit();
     }
     include_once "funciones/sesiones.php";
