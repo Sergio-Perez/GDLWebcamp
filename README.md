@@ -3,6 +3,6 @@
 # JavaScript HTML CSS jQuery PHP  AJAX MySQL:
 
 
-Mediante HTML, CSS, jQuerys,JavaScript, Ajax Y PHP crearemos un pa página Web.
+Mediante HTML, CSS, jQuerys,JavaScript, Ajax Y PHP crearemos un página Web.
 Conectaremos a MySQL. Preparremos la página para poder pagar con Paypal.
 
